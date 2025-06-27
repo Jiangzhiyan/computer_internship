@@ -72,28 +72,28 @@ include CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/codegen:
 .PHONY : CMakeFiles/untitled2.dir/codegen
 
-CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/main.cpp.o: /Users/jiangzhiyan/Desktop/computer_internship/main.cpp
-CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jiangzhiyan/Desktop/computer_internship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/main.cpp.o -MF CMakeFiles/untitled2.dir/main.cpp.o.d -o CMakeFiles/untitled2.dir/main.cpp.o -c /Users/jiangzhiyan/Desktop/computer_internship/main.cpp
+CMakeFiles/untitled2.dir/student.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/student.cpp.o: /Users/jiangzhiyan/Desktop/computer_internship/student.cpp
+CMakeFiles/untitled2.dir/student.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jiangzhiyan/Desktop/computer_internship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/student.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/student.cpp.o -MF CMakeFiles/untitled2.dir/student.cpp.o.d -o CMakeFiles/untitled2.dir/student.cpp.o -c /Users/jiangzhiyan/Desktop/computer_internship/student.cpp
 
-CMakeFiles/untitled2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jiangzhiyan/Desktop/computer_internship/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
+CMakeFiles/untitled2.dir/student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/student.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jiangzhiyan/Desktop/computer_internship/student.cpp > CMakeFiles/untitled2.dir/student.cpp.i
 
-CMakeFiles/untitled2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jiangzhiyan/Desktop/computer_internship/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
+CMakeFiles/untitled2.dir/student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/student.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jiangzhiyan/Desktop/computer_internship/student.cpp -o CMakeFiles/untitled2.dir/student.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
-"CMakeFiles/untitled2.dir/main.cpp.o"
+"CMakeFiles/untitled2.dir/student.cpp.o"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
 
-untitled2: CMakeFiles/untitled2.dir/main.cpp.o
+untitled2: CMakeFiles/untitled2.dir/student.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
 untitled2: CMakeFiles/untitled2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jiangzhiyan/Desktop/computer_internship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled2"
